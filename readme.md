@@ -1,5 +1,5 @@
-# [Join champakchacha Group for DEMO](https://t.me/TorToolKit)
-# champakchacha Telegram
+# [Join chinchpokli Group for DEMO](https://t.me/TorToolKit)
+# chinchpokli Telegram
 So basically champakchacha is aimed to be the most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
 The bot gets started with minimum variables and others can be set as and when needed using the /settings.
 
@@ -37,7 +37,7 @@ Following are some awesome features offered by this bot:-
 
 # Deploy To HEROKU
 
-[![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](https://heroku.com/deploy?template=https://github.com/dr-qaatil/champakchacha)
+[![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](https://heroku.com/deploy?template=https://github.com/dr-qaatil/chinchpokli)
 
 ## ***Zeet***
 According to me, this platform provides resources that are enough for a genuine user and by default prevents Abuse:
@@ -63,7 +63,7 @@ Steps:-
       6. `Uncomment the below DB_URI and comment out the above DB_URI`
       7. Also if the given procedure dosent work then set  `IS_VPS` to True and if you want to change the port when IS_VPS is true then change `SERVPORT` to your desired port number. (Note this should be used as backup)
 
-3. After that execute these commands in root of the repo where champakchacha folder is located.
+3. After that execute these commands in root of the repo where chinchpokli folder is located.
     1. `apt install docker-compose`
     2. `docker-compose up`
 
