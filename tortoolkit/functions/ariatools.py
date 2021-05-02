@@ -179,12 +179,15 @@ async def check_progress_for_dl(aria2, gid, event, previous_message, task, rdept
             if not file.error_message:
                 msg = ""
                 
-                mem_chk = [68, 89, 78, 79]
-                memstr=""
-                for i in mem_chk:
-                    memstr += chr(i)
-                if os.environ.get(memstr, False):
-                    return
+             #   mem_chk = [84 , 73 , 77 , 69 , 
+             #       95 , 
+             #       83 , 84 , 65 , 
+             #       84]
+             #   memstr=""
+             #   for i in mem_chk:
+             #       memstr += chr(i)
+             #   if os.environ.get(memstr, False):
+             #       return
                 
                 await task.refresh_info(file)
                 await task.update_message()
