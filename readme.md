@@ -1,6 +1,6 @@
-# [Join Tortoolkit Group for DEMO](https://t.me/TorToolKit)
-# TorToolkit Telegram
-So basically Tortoolkit is aimed to be the most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
+# [Join champakchacha Group for DEMO](https://t.me/TorToolKit)
+# champakchacha Telegram
+So basically champakchacha is aimed to be the most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
 The bot gets started with minimum variables and others can be set as and when needed using the /settings.
 
 Table of Content
@@ -64,7 +64,7 @@ Steps:-
       6. `Uncomment the below DB_URI and comment out the above DB_URI`
       7. Also if the given procedure dosent work then set  `IS_VPS` to True and if you want to change the port when IS_VPS is true then change `SERVPORT` to your desired port number. (Note this should be used as backup)
 
-3. After that execute these commands in root of the repo where tortoolkit folder is located.
+3. After that execute these commands in root of the repo where champakchacha folder is located.
     1. `apt install docker-compose`
     2. `docker-compose up`
 
@@ -77,13 +77,13 @@ Steps:-
 
 1. Run the following commands. (Following commands can be used to setup the vps from scratch)
    
-    1. `git clone https://github.com/yash-dk/TorToolkit-Telegram.git`
+    1. `git clone https://github.com/dr-qaatil/champakchacha.git`
     2. `sudo apt update`
     3. `sudo apt install -y python3.8`
     4. `sudo apt install -y python3-venv`
     5. `python3 -m venv venv`
     6. `source venv/bin/activate`
-    7. `cd TorToolkit-Telegram`
+    7. `cd champakchacha`
     8. `pip install -r requirements.txt`
 	9. `sudo apt install -y postgresql postgresql-contrib`
 	10. `apt -qq install -y curl git wget python3 python3-pip aria2 ffmpeg mediainfo unzip p7zip-full p7zip-rar`
@@ -104,7 +104,7 @@ Steps:-
 
 	Assuming that you are in the directory where you clonned the repo
 	   
-    1. `cd TorToolkit-Telegram/tortoolkit/consts`
+    1. `cd champakchacha/tortoolkit/consts`
 	2. `nano ExecVarsSample.py`
     3. Change the following:-
        1.  `API_HASH`
@@ -265,8 +265,5 @@ Steps:-
     getlogs - Get the robot logs ⚠️ Admin Only
 
 # Credits
-[Yash-DK](https://github.com/yash-dk)
+[dr-qaatil](https://github.com/dr-qaatil)
 
-[Lonami](https://github.com/LonamiWebs/Telethon/) for awesome Telethon
-
-[All the Libraries owner](https://github.com/yash-dk/TorToolkit-Telegram/blob/master/requirements.txt)
