@@ -34,11 +34,10 @@ Following are some awesome features offered by this bot:-
 - InstaDL support
 - Browse the settings menu and try stuff. ;)
 
-# Deployment
 
-## ***Heroku***
-### For Heroku users New repo will come soon (This repo will not work on heroku)
-[![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](https://telegra.ph/Heroku-TorToolkit-01-18)
+# Deploy To HEROKU
+
+[![Deploy](https://telegra.ph/file/e7d224c45cf1d106a28fa.png)](https://heroku.com/deploy?template=https://github.com/dr-qaatil/champakchacha)
 
 ## ***Zeet***
 According to me, this platform provides resources that are enough for a genuine user and by default prevents Abuse:
